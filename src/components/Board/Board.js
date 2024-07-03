@@ -35,16 +35,7 @@ const Board = ({ boardSize }) => {
     }
     return rows;
   };
-  const showToast = (message) => {
-    toast.error(message, {
-       
-        autoClose: 3000, 
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-    });
-};
+ 
   return (
     <>    
       <div className="container">
