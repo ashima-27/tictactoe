@@ -68,7 +68,7 @@ const useTicTacToe = (boardSize) => {
     if (winner || board[index]) return;
 
     const newBoard = [...board];
-//    isXNext ? "X" : "O";
+
    newBoard[index] =  isXNext ? (
     <FontAwesomeIcon icon={faTimes} style={{ color: "#006fff" }} size='2x' />
   ) : (

@@ -19,9 +19,6 @@ const Game = () => {
         }
         return; 
     }
-   
-
-
   setBoardSize(value);
     };
 
@@ -58,7 +55,6 @@ const Game = () => {
       </div>
     </div>
 </div>
-  
   </>
   );
 };

@@ -1,27 +1,15 @@
 
-.row {
-  /* margin-bottom: 20px; */
-}
-
-/* .form-control {
-  padding: 10px;
-  font-size: 24px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin:20px;
-} */
-
 .container {
     width: 100%;
-    /* max-width: 800px; Example: Set a max-width to prevent it from becoming too wide on large screens */
-    margin: 0 auto; /* Center the container horizontally */
-    padding: 0 20px; /* Add padding to the sides */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  
+    margin: 0 auto; 
+    padding: 0 20px; 
+    box-sizing: border-box; 
   }
   
   .row {
     display: flex;
-    flex-direction: row; /* Adjust flex-direction to column for stacking on smaller screens */
+    flex-direction: row; 
   }
   
   .form-control {
@@ -29,6 +17,6 @@
     font-size: 24px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    margin-bottom: 20px; /* Adjust margin as needed */
+    margin-bottom: 20px; 
   }
   
