@@ -1,4 +1,4 @@
-import React ,{useEffect}from "react";
+import React, { useEffect } from "react";
 import "./Board.css";
 import useTicTacToe from "../../hooks/tictactoe";
 import { toast, ToastContainer } from 'react-toastify';
@@ -35,11 +35,8 @@ const Board = ({ boardSize }) => {
     return rows;
   };
 
-
-
   return (
     <div className="container">
-      
       <div className="row">
         <div className="col-12 col-md-6 msgBox">
           <FontAwesomeIcon icon={faUsers} color='black' /> {getStatusMessage()}
